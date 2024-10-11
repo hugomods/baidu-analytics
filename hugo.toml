@@ -1,18 +1,2 @@
-[module.hugoVersion]
-min = "0.111.3"
-# extended = true
-
-#[[module.imports]]
-#path = ""
-
-#[params.hugopress.modules.baidu-analytics.attributes.document]
-
-#[params.hugopress.modules.baidu-analytics.attributes.body]
-
-#[params.hugopress.modules.baidu-analytics.hooks.head-begin]
-
-#[params.hugopress.modules.baidu-analytics.hooks.head-end]
-
-#[params.hugopress.modules.baidu-analytics.hooks.body-begin]
-
-#[params.hugopress.modules.baidu-analytics.hooks.body-end]
+[params.hugopress.modules.baidu-analytics.hooks.head-end]
+cacheable = true
